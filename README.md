@@ -7,9 +7,9 @@ Find the value of voltage \( V_2 \) across \( R_2 \) using the superposition the
 
 ### Given
 - Voltage source <code>V<sub>1</sub></code> = $12V$
-- Current source $I = 3A$
-- Resistor $R_1 = 6Ω$
-- Resistor $R_2 = 8Ω$
+- Current source <code>I</code> = $3A$
+- Resistor <code>R_1</code> = $6Ω$
+- Resistor <code>R_2</code> = $8Ω$
 
 ### Solution
 The superposition theorem states that in a linear circuit with multiple sources, the voltage or current in any component of the circuit is the algebraic sum of the voltages or currents produced by each source acting independently, with all other sources replaced by their internal resistances.
