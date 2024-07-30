@@ -21,7 +21,7 @@ Replace the current source with an open circuit (since an ideal current source h
 The circuit becomes a simple series circuit with <code>R<sub>1</sub></code> and <code>R<sub>2</sub></code>.
 
 Equivalent resistance:
-<code>R<sub>eq</sub></code> = <code>R<sub>1</sub></code> + <code>R<sub>2</sub></code> = $6Ω + 8Ω = 14Ω$
+<code>R<sub>eq</sub></code> = <code>R<sub>1</sub>R<sub>2</sub></code> = $6Ω + 8Ω = 14Ω$
 
 Current through the circuit from the voltage source:
 $I_{V1} = \frac{V_1}{R_{eq}} = \frac{12V}{14Ω} = 0.857A$
