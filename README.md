@@ -29,13 +29,13 @@ Current through the circuit from the voltage source:
 Voltage across $R_2$ due to the voltage source:
 <code>R<sub>V2</sub></code> = $I_{V1} \times R_2 = 0.857A \times 8Ω = 6.857V$
 
-#### Consider the current source $I = 3A$ alone:
+#### Consider the current source <code>I</code> = $3A$ alone:
 
 Replace the voltage source with a short circuit (since an ideal voltage source has zero internal resistance when shorted).
 
 In this case, the current divides between $R_1$ and $R_2$.
 
-Since the current $I = 3A$ flows through the parallel combination of $R_1$ and $R_2$, the voltage across $R_2$:
+Since the current <code>I</code>  = $3A$ flows through the parallel combination of <code>R<sub>1<sub></code> and <code>R<sub>2<sub></code>, the voltage across $R_2$:
 $V_{R_2(I)} = I \times R_2 = 3A \times 8Ω = 24V$
 
 #### Apply the superposition principle:
