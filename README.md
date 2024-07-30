@@ -1,39 +1,39 @@
-# Superposition-Theorem
+# Problem 1: Superposition Theorem
 
-**Вопрос:** Найдите значение напряжения \( V_2 \) на \( R_2 \), используя теорему суперпозиции в следующей схеме:
+**Question:** Find the value of voltage \( V_2 \) across \( R_2 \) using the superposition theorem in the following circuit:
 
-**Дано:**
-- Источник напряжения \( V_1 = 12В \)
-- Источник тока \( I = 3А \)
-- Резистор \( R_1 = 6\Ом \)
-- Резистор \( R_2 = 8\Ом \)
+**Given:**
+- Voltage source \( V_1 = 12V \)
+- Current source \( I = 3A \)
+- Resistor \( R_1 = 6\Omega \)
+- Resistor \( R_2 = 8\Omega \)
 
-### Решение:
+### Solution:
 
-Теорема суперпозиции гласит, что в линейной цепи с несколькими источниками напряжения и тока, напряжение или ток в любой части цепи можно найти как сумму напряжений или токов, вызванных каждым источником по отдельности, при условии, что все остальные источники заменены на их внутренние сопротивления.
+The superposition theorem states that in a linear circuit with multiple sources, the voltage or current in any component of the circuit is the algebraic sum of the voltages or currents produced by each source acting independently, with all other sources replaced by their internal resistances.
 
-1. **Рассмотрим только источник напряжения \( V_1 = 12В \):**
-   - Заменим источник тока на разрыв цепи (поскольку идеальный источник тока имеет бесконечное сопротивление при отключении).
-   - Схема превращается в простую последовательную цепь из \( R_1 \) и \( R_2 \).
+1. **Consider the voltage source \( V_1 = 12V \) alone:**
+   - Replace the current source with an open circuit (since an ideal current source has infinite resistance when open).
+   - The circuit becomes a simple series circuit with \( R_1 \) and \( R_2 \).
 
-   Эквивалентное сопротивление:
-   \[ R_{eq} = R_1 + R_2 = 6\Ом + 8\Ом = 14\Ом \]
+   Equivalent resistance:
+   \[ R_{eq} = R_1 + R_2 = 6\Omega + 8\Omega = 14\Omega \]
 
-   Ток через цепь от источника напряжения:
-   \[ I_{V1} = \frac{V_1}{R_{eq}} = \frac{12В}{14\Ом} = 0.857А \]
+   Current through the circuit from the voltage source:
+   \[ I_{V1} = \frac{V_1}{R_{eq}} = \frac{12V}{14\Omega} = 0.857A \]
 
-   Напряжение на \( R_2 \) от источника напряжения:
-   \[ V_{R_2(V1)} = I_{V1} \times R_2 = 0.857А \times 8\Ом = 6.857В \]
+   Voltage across \( R_2 \) due to the voltage source:
+   \[ V_{R_2(V1)} = I_{V1} \times R_2 = 0.857A \times 8\Omega = 6.857V \]
 
-2. **Рассмотрим только источник тока \( I = 3А \):**
-   - Заменим источник напряжения на короткое замыкание (поскольку идеальный источник напряжения имеет нулевое внутреннее сопротивление при коротком замыкании).
-   - В этом случае ток делится между \( R_1 \) и \( R_2 \).
+2. **Consider the current source \( I = 3A \) alone:**
+   - Replace the voltage source with a short circuit (since an ideal voltage source has zero internal resistance when shorted).
+   - In this case, the current divides between \( R_1 \) and \( R_2 \).
 
-   Так как ток \( I = 3А \) течет через параллельное соединение \( R_1 \) и \( R_2 \), напряжение на \( R_2 \):
-   \[ V_{R_2(I)} = I \times R_2 = 3А \times 8\Ом = 24В \]
+   Since the current \( I = 3A \) flows through the parallel combination of \( R_1 \) and \( R_2 \), the voltage across \( R_2 \):
+   \[ V_{R_2(I)} = I \times R_2 = 3A \times 8\Omega = 24V \]
 
-3. **Применим принцип суперпозиции:**
-   - Общее напряжение на \( R_2 \) — это сумма напряжений от каждого источника:
-     \[ V_2 = V_{R_2(V1)} + V_{R_2(I)} = 6.857В + 24В = 30.857В \]
+3. **Apply the superposition principle:**
+   - The total voltage across \( R_2 \) is the sum of the voltages from each source:
+     \[ V_2 = V_{R_2(V1)} + V_{R_2(I)} = 6.857V + 24V = 30.857V \]
 
-Итак, напряжение на \( R_2 \) при использовании теоремы суперпозиции равно 30.857 В.
+Thus, the voltage across \( R_2 \) using the superposition theorem is 30.857 V.
