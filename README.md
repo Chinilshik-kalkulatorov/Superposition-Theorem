@@ -3,7 +3,7 @@
 ## Problem 1: Superposition Theorem
 
 ### Question
-Find the value of voltage \( V_2 \) across \( R_2 \) using the superposition theorem in the following circuit:
+Find the value of voltage <code>V<sub>2</sub></code> across <code>R<sub>2</sub></code> using the superposition theorem in the following circuit:
 
 ### Given
 - Voltage source <code>V<sub>1</sub></code> = $12V$
@@ -14,11 +14,11 @@ Find the value of voltage \( V_2 \) across \( R_2 \) using the superposition the
 ### Solution
 The superposition theorem states that in a linear circuit with multiple sources, the voltage or current in any component of the circuit is the algebraic sum of the voltages or currents produced by each source acting independently, with all other sources replaced by their internal resistances.
 
-#### Consider the voltage source $V_1 = 12V$ alone:
+#### Consider the voltage source <code>V<sub>1</sub></code> = $12V$ alone:
 
 Replace the current source with an open circuit (since an ideal current source has infinite resistance when open).
 
-The circuit becomes a simple series circuit with $R_1$ and $R_2$.
+The circuit becomes a simple series circuit with <code>R<sub>1</sub></code> and <code>R<sub>2</sub></code>.
 
 Equivalent resistance:
 $R_{eq} = R_1 + R_2 = 6Ω + 8Ω = 14Ω$
