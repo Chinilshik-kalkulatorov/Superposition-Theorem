@@ -6,10 +6,10 @@
 Find the value of voltage \( V_2 \) across \( R_2 \) using the superposition theorem in the following circuit:
 
 ### Given
-- Voltage source <code>$V_1 = 12V$</code>
-- Current source <code>$I = 3A$</code>
-- Resistor <code>$R_1 = 6Ω$</code>
-- Resistor <code>$R_2 = 8Ω$</code>
+- Voltage source <code>V<sub>1</sub></code> = $12V$
+- Current source $I = 3A$
+- Resistor $R_1 = 6Ω$
+- Resistor $R_2 = 8Ω$
 
 ### Solution
 The superposition theorem states that in a linear circuit with multiple sources, the voltage or current in any component of the circuit is the algebraic sum of the voltages or currents produced by each source acting independently, with all other sources replaced by their internal resistances.
