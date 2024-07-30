@@ -35,7 +35,7 @@ Replace the voltage source with a short circuit (since an ideal voltage source h
 
 In this case, the current divides between <code>R<sub>1<sub></code> and <code>R<sub>2<sub></code>.
 
-Since the current <code>I</code>  = $3A$ flows through the parallel combination of <code>R<sub>1<sub></code> and <code>R<sub>2<sub></code>, the voltage across $R_2$:
+Since the current <code>I</code>  = $3A$ flows through the parallel combination of <code>R<sub>1<sub></code> and <code>R<sub>2<sub></code>, the voltage across <code>R<sub>2<sub></code>:
 $V_{R_2(I)} = I \times R_2 = 3A \times 8Ω = 24V$
 
 #### Apply the superposition principle:
