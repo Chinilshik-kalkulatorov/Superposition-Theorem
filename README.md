@@ -27,7 +27,7 @@ Current through the circuit from the voltage source:
 <code>I<sub>V1</sub></code> = $\frac{V_1}{R_{eq}} = \frac{12V}{14Ω} = 0.857A$
 
 Voltage across $R_2$ due to the voltage source:
-<code>R<sub>V2</sub></code> = I_{V1} \times R_2 = 0.857A \times 8Ω = 6.857V$
+<code>R<sub>V2</sub></code> = $I_{V1} \times R_2 = 0.857A \times 8Ω = 6.857V$
 
 #### Consider the current source $I = 3A$ alone:
 
